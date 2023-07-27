@@ -1,4 +1,4 @@
-![preview](\.github\screenshot.png)
+![preview](/.github/screenshot.png)
 
 >Portfolio Léo Moraes
 
