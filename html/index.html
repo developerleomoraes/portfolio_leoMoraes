@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iPortfolio Dev Leo Moraes</title>
+
+    <!-- Link para o arquivo .css -->
+    <link rel="stylesheet" href="../css/style.css">
+
+    <!-- Link JavaScript -->
+    <script src="../js/script.js" defer></script>
+
+    <!-- Favicons -->
+    <link rel="shortcut icon" href="../assets/terminal.png" type="image/x-icon">
+
+    <!-- Google Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300 300i,400,400i,500,500i,600,600i,700,700i"
+        rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Zilla+Slab+Highlight:wght@700&display=swap" rel="stylesheet">
+
+
+    <!-- Vendor CSS Files -->
+    <link href="/vendor/aos/aos.css" rel="stylesheet">
+    <link href="/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+    <link href="/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <!------- Mobile nav toggle button ------->
+    <i class="bi bi-list mobile-nav-toggle d-xl-none"></i>
+
+    <!------- Header ------->
+    <header id="header">
+        <div class="d-flex flex-column">
+            <div class="profile">
+                <img src="../assets/meBlackAndWhite.jpeg" alt="Foto Leonardo" class="rounded">
+                <h1 class="text-light"><a href="../html/index.html">Léo Moraes</a></h1>
+                <div class="social-links mt-3 text-center">
+                    <a href="https://github.com/developerleomoraes" target="_blank" class="github"><i
+                            class="bi bi-github"></i></a>
+                    <a href="https://www.linkedin.com/in/developerleoit/" target="_blank" class="linkedin"><i
+                            class="bx bxl-linkedin"></i></a>
+                    <a href="https://mail.google.com/mail/u/2/#inbox" target="_blank" class="email"><i
+                            class="bx bx-envelope"></i></a>
+                </div>
+            </div>
+
+            <nav id="navbar" class="nav-menu navbar">
+                <ul>
+                    <li><a href="#me" class="nav-link scrollto active"><i class="bx bx-home"></i><span>Home</span></a>
+                    </li>
+                    <li><a href="#about" class="nav-link scrollto active"><i
+                                class="bx bx-user"></i><span>About</span></a>
+                    </li>
+                    <li><a href="#resume" class="nav-link scrollto active"><i
+                                class="bx bx-file-blank"></i><span>Resume</span></a>
+                    </li>
+                    <li><a href="#portfolio" class="nav-link scrollto active"><i
+                                class="bx bx-book-content"></i><span>Projects</span></a></li>
+                    <li><a href="#contact" class="nav-link scrollto active"><i
+                                class="bx bx-envelope"></i><span>Contact</span></a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!------- Me Section ------->
+    <section id="me" class="d-flex flex-column justify-content-center align-items-center">
+        <div class="me-container" data-aos="fade-in">
+            <h1>Léo Moraes</h1>
+            <p>I'm a <span class="typed"
+                    data-typed-items="Architect, Front-End Developer, Computer Science Student"></span></p>
+        </div>
+    </section>
+
+    <!------- Main ------->
+    <main id="main">
+
+        <!------- About Section ------->
+        <section id="about" class="about">
+            <div class="container">
+                <div class="section-title">
+                    <h2>About</h2>
+                    <p> Olá, me chamo Leonardo Moraes, estou no quinto período de Ciência da Computação, e estou em
+                        busca
+                        da minha primeira vaga na área, estou em busca de um estágio ou vaga como júnior, sou um
+                        desenvolvedor Front-End
+                        iniciante e completamente disposto a aprender e contribuir. Um ponto que destaco são minhas
+                        softs skills, posso contribuir muito com minha experiência, por já estar vivendo
+                        profissionalmente,
+                        hoje trabalho na PUC Minas - Campus Poços de Caldas, como técnico de laboratório.
+                    </p>
+                </div>
+
+                <div class="row">
+                    <div class="col-lg-4" data-aos="fade-right">
+                        <img src="../assets/meColorSmall.jpeg" class="img-fluid" alt="Foto Leonardo Moraes">
+                    </div>
+                    <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
+                        <h3>Front-End Developer &amp; Computer Science Student</h3>
+                        <p class="fst-italic">
+                            Sou formado em arquitetura e urbanismo, o que me ajuda com o design já que busco ser um
+                            desenvolvedor Front-End.
+                        </p>
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <ul>
+                                    <li><i class="bi bi-chevron-right"></i> <strong>Birthday:</strong></strong> <span>27
+                                            Augost
+                                            1996</span></li>
+                                    <li><i class="bi bi-chevron-right"></i> <strong>Phone:</strong></strong> <span>35 9
+                                            9231-6059</span></li>
+                                    <li><i class="bi bi-chevron-right"></i> <strong>City:</strong></strong> <span>Poços
+                                            de
+                                            Caldas,
+                                            MG</span></li>
+                                </ul>
+                            </div>
+                            <div class="col-lg-6">
+                                <ul>
+                                    <li><i class="bi bi-chevron-right"></i> <strong>Age:</strong></strong>
+                                        <span>26</span>
+                                    </li>
+                                    <li><i class="bi bi-chevron-right"></i> <strong>Degree:</strong></strong>
+                                        <span>Computer
+                                            Science [5/8]</span>
+                                    </li>
+                                    <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong></strong>
+                                        <span>devraccoonleo.@gmail.com</span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <p> Apesar de ter me formado em Arquitetura, sempre nutri uma paixão pela área de tecnologia.
+                            Agora, estou perseguindo meu sonho de me tornar um desenvolvedor front-end, cursando Ciência
+                            da Computação.
+                            Combinar minha experiência em design arquitetônico com habilidades em programação é um
+                            caminho empolgante
+                            para construir interfaces digitais incríveis. Estou determinado a alcançar o sucesso nessa
+                            nova jornada.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!------- Skills Section ------->
+        <section id="skills" class="skills section-bg">
+            <div class="container">
+                <div class="section-title">
+                    <h2>Skills</h2>
+                    <p> Possuo conhecimentos em HTML, CSS, JavaScript e Git, adquiridos ao longo da minha jornada
+                        educacional para ser um desenvolvedor.
+                        Atualmente, estou estudando React e Typescript, mergulhando nos fundamentos e explorando
+                        projetos práticos.
+                        <br><br>
+                        Durante minha graduação em Ciência da Computação, tive a oportunidade de trabalhar com diversas
+                        tecnologias, como linguagem C, Java, MySQL e Python. Além disso, explorei ferramentas de design
+                        como Figma e aprendi a metodologia ágil Scrum para gerenciamento de projetos. Essa diversidade
+                        de conhecimentos proporcionou uma ótima base para minha carreira como desenvolvedor.
+                        <br><br>
+                        Estou entusiasmado em expandir meu conhecimento e aplicá-lo em futuros projetos front-end
+                        desafiadores.
+                    </p>
+                </div>
+
+                <div class="row shadow-lg skills-content-1">
+                    <p class="techLanguages-Tittle">T E C H N O L O G I E S</p>
+                    <p class="languages-V">HTML &&&&&</p>
+                    <p class="languages-V">CSS &</p>
+                    <p class="languages-V">JavaScript&&&</p>
+                    <p class="languages-V">&</p>
+                    <p class="languages-V">React</p>
+
+                    <p class="languages-H">CSS</p>
+                    <p class="languages-H">JavaScript</p>
+                    <p class="languages-H">&</p>
+                    <p class="languages-H">React</p>
+                    <div class="d-flex justify-content-end" data-aos="fade-up">
+                        <div class="technologies">
+                            <div class="skill">
+                                <img
+                                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" />
+                            </div>
+                        </div>
+
+                        <div class="technologies">
+                            <div class="skill">
+                                <img
+                                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
+                            </div>
+                        </div>
+
+                        <div class="technologies">
+                            <div class="skill">
+                                <img
+                                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg" />
+                            </div>
+                        </div>
+
+                        <div class="technologies">
+                            <div class="skill">
+                                <img
+                                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg" />
+                            </div>
+                        </div>
+
+                        <div class="technologies">
+                            <div class="skill">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" />
+                            </div>
+                        </div>
+
+                        <div class="technologies">
+                            <div class="skill">
+                                <img
+                                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row shadow-lg skills-content-2">
+                    <p class="techLanguages-Tittle">I used it in college</p>
+                    <p class="languages-V">C &&&&&</p>
+                    <p class="languages-V">Java &</p>
+                    <p class="languages-V">MySQL&&&</p>
+                    <p class="languages-V">&</p>
+                    <p class="languages-V">Python</p>
+
+                    <p class="languages-H">C</p>
+                    <p class="languages-H">Python</p>
+                    <p class="languages-H">&</p>
+                    <p class="languages-H">Assembly</p>
+                    <div class="d-flex justify-content-end" data-aos="fade-up">
+                        <div class="technologies">
+                            <div class="skill">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" />
+                            </div>
+                        </div>
+
+                        <div class="technologies">
+                            <div class="skill">
+                                <img
+                                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original-wordmark.svg" />
+                            </div>
+                        </div>
+
+                        <div class="technologies">
+                            <div class="skill">
+                                <img
+                                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" />
+                            </div>
+                        </div>
+
+                        <div class="technologies">
+                            <div class="skill">
+                                <img
+                                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" />
+                            </div>
+                        </div>
+
+                        <div class="technologies">
+                            <div class="skill">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" />
+                            </div>
+                        </div>
+
+                        <div class="technologies">
+                            <div class="skill">
+                                <img
+                                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original-wordmark.svg" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!------- Resume Section -------------------------------------------------------------------------------------------->
+        <section id="resume" class="resume">
+            <div class="container">
+                <div class="section-titile">
+                    <h2>Resume</h2>
+                    <p> Arquiteto formado em busca de nova trajetória na área da tecnologia, atualmente cursando Ciência
+                        da Computação 5/8.
+                        Apaixonado por tecnologia e empenhado em obter minha primeira oportunidade como desenvolvedor
+                        front-end.</p>
+                </div>
+
+                <div class="row">
+                    <div class="col-lg-6" data-aos="fade-up">
+                        <h3 class="resume-title">Sumary</h3>
+                        <div class="resume-item pb-0">
+                            <h4>Leonardo Moraes</h4>
+                            <p><em>
+                                    Sou um profissional altamente motivado e apaixonado por tecnologia. Busco
+                                    constantemente aprender e me adaptar
+                                    a novas tecnologias, visando contribuir com soluções inovadoras e de alta qualidade.
+                                    Estou em busca
+                                    de oportunidades desafiadoras para aplicar meu conhecimento, aprender e ajudar.
+                                </em></p>
+                            <ul>
+                                <li>Poços de Caldas, Minas Gerais, MG</li>
+                                <li>(35) 9 9231-6059</li>
+                                <li>devraccoonleo@gmail.com</li>
+                            </ul>
+                        </div>
+
+                        <h3 class="resume-title">Education</h3>
+                        <div class="resume-item pb-0">
+                            <h4>Bachelor's Degree Computer Science [5/8]</h4>
+                            <h5>2021 - 2025</h5>
+                            <p><em>Pontifícia Universidade Católica de Minas Gerais - Campus Poços de Caldas, MG
+                                </em></p>
+                            <p> Atualmente estou no quinto período do curso de Ciência da Computação
+                            </p>
+                        </div>
+                        <div class="resume-item">
+                            <h4>Bachelor's Degree Archtecture</h4>
+                            <h5>2014 - 2019</h5>
+                            <p><em>Pontifícia Universidade Católica de Minas Gerais - Campus Poços de Caldas, MG
+                                </em></p>
+                            <p> Formado em Arquitetura e Urbanismo
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+                        <h3 class="resume-title">Professional Experience</h3>
+                        <div class="resume-item">
+                            <h4>Laboratory Technical</h4>
+                            <h5>2022 - Atual</h5>
+                            <p><em>Pontifícia Universidade Católica de Minas Gerais - Campus Poços de Caldas, MG
+                                </em></p>
+                            <ul>
+                                <li>Criação de documentação</li>
+                                <li>Implementação de ferramentas</li>
+                                <li>Assistência Tecnológica</li>
+                                <li>Controle de Estoque</li>
+                            </ul>
+                        </div>
+                        <div class="resume-item">
+                            <h4>Architect</h4>
+                            <h5>2021 - 2022</h5>
+                            <p><em>24 7 Arquitetura, Campinas - SP</em></p>
+                            <ul>
+                                <li>Arquiteto BIM</li>
+                                <li>Design</li>
+                                <li>Especialização em Softwares</li>
+                                <li>Trello and Click Up</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!------- Portfolio Section -------------------------------------------------------------------------------------------->
+        <section id="portfolio" class="portfolio">
+            <div class="container">
+                <div class="section-title">
+                    <h2>Portfolio</h2>
+                    <p>
+                        A seguir, projetos web utilizando as tecnologias HTML, CSS e JavaScript, nos quais pude
+                        aprimorar minhas habilidades em desenvolvimento front-end. Além disso, estou entusiasmado em
+                        compartilhar que estou trabalhando em um projeto com React, que em breve estará disponível
+                        online, demonstrando meu comprometimento em explorar novas tecnologias e criar soluções
+                        inovadoras.
+                    </p>
+                </div>
+
+                <div class="row" data-aos="fade-up">
+                    <div class="col-lg-12 d-flex justify-content-center">
+                        <ul id="portfolio-filters">
+                            <li data-filter="*" class="filter-active">All</li>
+                            <li data-filter=".filter-web">Web</li>
+                            <li data-filter=".filter-app">Card</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="portfolio-container" data-aos="fade-up" data-aos-delay="100">
+
+                    <div class="portfolio-item filter-web">
+                        <div class="portfolio-wrap">
+                            <img src="/assets/portfolio/toDoList.png" class="img-fluid" alt="Projeto 1">
+                            <div class="portfolio-links">
+                                <a href="https://developerleomoraes.github.io/Front-End/Projects/CRUD_to_do_list/html/"
+                                    target="_blank" data-gallery="portfolioGallery" class="portfolio-lightbox"
+                                    title="Web 1"><i class="bx bx-plus"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="portfolio-item filter-card">
+                        <div class="portfolio-wrap">
+                            <img src="/assets/portfolio/cardList.png" class="img-fluid" alt="Imagem do site de Card">
+                            <div class="portfolio-links">
+                                <a href="https://developerleomoraes.github.io/Front-End/Projects/site_links/"
+                                    target="_blank" data-gallery="portfolioGallery" class="portfolio-lightbox"
+                                    title="Card 1"><i class="bx bx-plus"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="portfolio-item filter-web">
+                        <div class="portfolio-wrap">
+                            <img src="/assets/portfolio/dev.finance.png" class="img-fluid" alt="Projeto de Finanças">
+                            <div class="portfolio-links">
+                                <a href="https://developerleomoraes.github.io/Front-End/Projects/dev.finance_project/#"
+                                    target="_blank" data-gallery="portfolioGallery" class="portfolio-lightbox"
+                                    title="Web 2"><i class="bx bx-plus"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="portfolio-item filter-web">
+                        <div class="portfolio-wrap">
+                            <img src="/assets/portfolio/form.validation.png" class="img-fluid" alt="Form Validation">
+                            <div class="portfolio-links">
+                                <a href="https://developerleomoraes.github.io/Front-End/Projects/form_validation_2/"
+                                    target="_blank" data-gallery="portfolioGallery" class="portfolio-lightbox"
+                                    title="Web 3"><i class="bx bx-plus"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="portfolio-item filter-app">
+                        <div class="portfolio-wrap">
+                            <img src="/assets/portfolio/habits.png" class="img-fluid" alt="Habitos">
+                            <div class="portfolio-links">
+                                <a href="https://developerleomoraes.github.io/Front-End/Projects/habits_project_explorer/"
+                                    target="_blank" data-gallery="portfolioGallery" class="portfolio-lightbox"
+                                    title="Web 4"><i class="bx bx-plus"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="portfolio-item filter-web">
+                        <div class="portfolio-wrap">
+                            <img src="/assets/portfolio/portfolio-2.jpg" class="img-fluid"
+                                alt="Formulario de validação">
+                            <div class="portfolio-links">
+                                <a href="#" target="_blank" data-gallery="portfolioGallery" class="portfolio-lightbox"
+                                    title="Web 5"><i class="bx bx-plus"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!------- Contact Section -------------------------------------------------------------------------------------------->
+        <section id="contact" class="contact">
+            <div class="container">
+
+                <div class="section-title">
+                    <h2>Contact</h2>
+                    <p> Entre em contato .</p>
+                </div>
+                <div class="row" data-aos="fade-in">
+                    <div class="d-flex align-items-baseline">
+                        <div class="info">
+                            <div class="address">
+                                <i class="bi bi-geo-alt"></i>
+                                <h4>Location:</h4>
+                                <p>A108 Adam Street, New York, NY 535022</p>
+                            </div>
+
+                            <div class="email">
+                                <i class="bi bi-envelope"></i>
+                                <h4>Emal:</h4>
+                                <p>devraccoonleo@gmail.com</p>
+                            </div>
+
+                            <div class="phone">
+                                <i class="bi bi-phone"></i>
+                                <h4>Call:</h4>
+                                <p>+55 35 9 9231-6059</p>
+                            </div>
+
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d946.4089225297655!2d-46.59782147345961!3d-21.798978590585975!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sPuc%20minas%20po%C3%A7os%20de%20caldas!5e0!3m2!1sen!2sus!4v1688317124992!5m2!1sen!2sus"
+                                framebar="0" style="border:0; width: 100%; height: 100%;" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!------- Footer -------------------------------------------------------------------------------------------->
+    <footer id="footer">
+        <div class="container">
+            <div class="copyright">
+                <p>Reference Portfolio</p>
+                &copy; Copyright <strong><span>iPortfolio</span></strong>
+            </div>
+            <div class="credits">
+                Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+            </div>
+        </div>
+    </footer>
+
+    <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+            class="bi bi-arrow-up-short"></i></a>
+
+    <!-- Vendor JS Files -->
+    <script src="/vendor/purecounter/purecounter_vanilla.js"></script>
+    <script src="/vendor/aos/aos.js"></script>
+    <script src="/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="/vendor/typed.js/typed.umd.js"></script>
+    <script src="/vendor/waypoints/noframework.waypoints.js"></script>
+    <script src="/vendor/php-email-form/validate.js"></script>
+
+    <!-- Link para o arquivo .js-->
+
+
+</body>
+
+</html>
