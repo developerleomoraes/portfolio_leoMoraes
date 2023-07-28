@@ -600,10 +600,11 @@ section {
 .portfolio-container {
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .portfolio .portfolio-wrap {
-    width: 50%;
+    width: 400px;
     display: flex;
     transition: 0.3s;
     position: relative;
